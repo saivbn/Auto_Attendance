@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:  center;
+            margin:  50px;
+            background-color: #f8f9fa;
+        }
+        .container{
+            width: 50%;
+            margin: auto;
+            background: gray;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px rgba(20, 20, 20, 0.2);
+        }
+        h1{
+            color: #333;
+        }
+        input{
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button{
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Register</h1>
+    <p>Create a new account</p>
+    <from>
+        <label for="username">User Name</label>
+        <input type="text" id="username" name="username" required>
+        <label for="Password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+        <button type="submit">Register</button>
+    </from>
+    </div>
+</body>
+</html>
