@@ -1,1 +1,4 @@
-nuke(10)
+import flask
+
+def __init__ (self):
+    self
